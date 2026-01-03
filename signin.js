@@ -51,7 +51,7 @@ loginBtn.addEventListener("click", () => {
 
   signInWithEmailAndPassword(auth, email, password)
     .then(() => {
-      window.location.href = "index.html"; // ✅ LANDING PAGE
+      window.location.href = "Landingpage.html"; // ✅ LANDING PAGE
     })
     .catch((error) => {
       alert("Invalid email or password");
@@ -59,3 +59,4 @@ loginBtn.addEventListener("click", () => {
     });
 
 });
+
