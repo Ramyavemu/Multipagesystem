@@ -68,7 +68,7 @@ signupBtn.addEventListener("click", () => {
       /* Account already exists */
       if (error.code === "auth/email-already-in-use") {
         alert("Account already exists. Please sign in.");
-        window.location.href = "signin.html";
+        window.location.href = "Landingpage.html";
       } 
       else {
         alert(error.message);
@@ -78,3 +78,4 @@ signupBtn.addEventListener("click", () => {
     });
 
 });
+
